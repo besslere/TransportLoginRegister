@@ -1,0 +1,119 @@
+/*通用样式*/
+body{
+    font: 12px/1.5 arial,sans-serif;
+    background: url('../img/bgr.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+}
+body,table,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+input{
+    outline: none
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.lf{
+    float: left;
+}
+.rt{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+/*注册页*/
+.reg-page{
+    width: 1200px;
+    text-align: center;
+    margin: 2% auto 0;
+}
+.reg-page h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 0.5em;
+}
+.reg-page .reg-form{
+    width: 450px;
+    margin: 0 auto;
+    height: auto;
+    background: rgba(93, 125, 189, 0.3);
+}
+.reg-page .reg-title{
+    border-bottom: none;
+    text-align: center;
+    padding: 10px 12px 0;
+}
+.reg-page .reg-title h3{
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+}
+.reg-page .reg-box{
+    padding: 10px 35px 10px;
+}
+.reg-page .reg-ipt li{
+    position: relative;
+}
+.reg-page .reg-ipt li.service{
+    text-align: left;
+    color: #fff;
+    padding: 0 0 20px 0;
+}
+.reg-page .reg-ipt li.service a{
+    cursor: pointer;
+}
+.reg-page .logo{
+    text-align: right;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.reg-page .logo a{
+    color: #fff;
+}
+input[type="text"],input[type="password"] {
+    width: 93%;
+    padding: 10px 10px 10px 10px;
+    font-weight: normal;
+    background: none;
+    border: 1px solid #8FA4B9;
+    color: #fff;
+    font-size: 14px;
+    margin: 3px 0 8px 0;
+}
+input[type="submit"] {
+    background: #0ab5ae;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    -webkit-appearance: none;
+    padding: 10px 15px;
+}
+input[type="checkbox"]{
+    vertical-align: middle;
+}
+p.footer {
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin: 1em 0 1em;
+}
+p.footer a{
+    color: #F8A23E;
+}
+::-webkit-input-placeholder{color:#fff;}
+::-moz-placeholder{color:#fff;}
+:-moz-placeholder{color:#fff;}
